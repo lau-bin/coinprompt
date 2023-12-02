@@ -7,7 +7,7 @@ const cors = require('cors');
 const expressWs = require('express-ws');
 const http = require ('http');
 const path = require('path');
-const arbController = require('./controllers/arbController.js');
+
 var port = process.env.PORT || 8080;
 
 // models
